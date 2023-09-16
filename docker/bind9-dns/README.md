@@ -24,7 +24,7 @@ Setup using the following steps:
 2. Create a folder for this project e.g. 'labdns' or 'localdns'
 3. Cd into this folder and create the following subfolders which are needed by BIND9 (cache, config and records)
 4. Copy the docker-compose.yml file into the root of your project folder
-5. Cd into the config folder and copy the cd zone file and adjust to your needs.
+5. Cd into the config folder and copy the zone file from this repo and adjust to your needs.
 
 Once you finished the setup test the BIND9 container by start it with: 
 ```
