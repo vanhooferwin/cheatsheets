@@ -44,6 +44,10 @@ Enter ```gh repo clone OWNER/REPO```. For example,```gh repo clone octo-org/octo
 ### Creating a repository
 Enter ```gh repo create``` and follow the on-screen instructions. You can create a new, empty repository on GitHub and then, optionally, clone it locally. Alternatively, you can push an existing local repository to GitHub, and optionally set it as the remote for your local repository. For information on setting a local directory as a Git repository, see "Adding locally hosted code to GitHub."
 
+To add a local repository to the newly created repo: 
+See: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git
+
+
 ### Working with issues
 Enter gh issue list --repo OWNER/REPO to list the most recently created issues that are currently open for the specified repository. If you run the issue subcommand from within the directory of a local Git repository that has a remote on GitHub you can omit --repo OWNER/REPO. For example, enter gh issue list --assignee "@me" to list issues assigned to you in this repository, or gh issue list --author monalisa to list issues created by the user "monalisa."
 
