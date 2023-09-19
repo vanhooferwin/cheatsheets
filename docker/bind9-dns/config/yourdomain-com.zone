@@ -1,0 +1,22 @@
+$TTL 2d
+
+$ORIGIN yourdomain.com.
+
+@           	IN      SOA     ns.yourdomain.com.   mail.yourdomain.com. (
+                	            20230916        ; serial (YYYYMMDD)
+                        	    12h             ; refresh
+	                            15m             ; retry
+        	                    3w              ; expire
+                	            2h              ; minimum ttl
+                        	)
+
+            	IN      NS      ns.yourdomain.com.
+
+ns          	IN      A       10.10.0.211 ; IP of server running BIND9
+
+; -- add dns records below
+
+machine1    	IN      A       10.10.0.201
+machine2    	IN      A       10.10.0.254
+gateway			  IN		  A		    10.10.0.1
+
